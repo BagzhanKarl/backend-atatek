@@ -3,7 +3,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
 # Конфигурация подключения к базе данных
-DATABASE_URL = "mysql+pymysql://root:@localhost/atatek"
+DATABASE_URL = "mysql+pymysql://root:baxamk12345678@localhost/atatek"
 engine = create_engine(DATABASE_URL, echo=True)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 Base = declarative_base()
